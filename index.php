@@ -18,7 +18,7 @@
     <header>
         <h1 class="d-none">Absolut Vodka</h1>
     </header>
-    <nav class="navbar navcolor navbar-dark fixed-top">
+    <nav class="navbar navcolor navbar-dark fixed-top navbar-expand-lg">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="boton hamburguesa" 
             aria-expanded="false" aria-label="boton de navegacion">
@@ -26,44 +26,46 @@
             </button>
             <a class="navbar-brand colorFuenteBlanca" href="index.php">ABSOLUT</a>
 
-            <a class="material-icons blanco" href="php/productos.php">shopping_cart</a>
+            <a class="material-icons blanco d-lg-none" href="php/productos.php">shopping_cart</a>
 
 
             <div class="collapse navbar-collapse fuenteHamburguesa" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link colorFuenteBlanca " href="index.php">
-                            <span class="material-icons centro">home</span>
+                            <span class="material-icons centro d-lg-none">home</span>
                             Home</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link colorFuenteBlanca" href="php/productos.php">
-                            <span class="material-icons centro">shopping_cart</span>
+                            <span class="material-icons centro d-lg-none">shopping_cart</span>
                             Productos</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link colorFuenteBlanca" href="php/recetas.php">
-                            <span class="material-icons centro">local_bar</span>
+                            <span class="material-icons centro d-lg-none">local_bar</span>
                             Recetas</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link colorFuenteBlanca" href="php/historia.php">
-                            <span class="material-icons centro">import_contacts</span>
+                            <span class="material-icons centro d-lg-none">import_contacts</span>
                             Historias</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link colorFuenteBlanca" href="php/contacto.php">
-                            <span class="material-icons centro">email</span>
+                            <span class="material-icons centro d-lg-none">email</span>
                             Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    <main>
+    <main class="container">
+
+    <section class="row">
 
         <img src="imagenes/absolut.jpg" class="img-fluid mt-5" width="1920" height="768" alt="Botella Vodka marca Absolut de vidrio reciclable">
 
-        <h1 class="text-center mt-4 mb-2">ABSOLUT COMEBACK</h1>
+        <h1 class="text-center mt-4 mb-2 ">ABSOLUT COMEBACK</h1>
 
         <div class="container">
             <p class="lead mb-5">
@@ -84,7 +86,7 @@
                 Si cada vez somos más los que empezamos con estos pequeños cambios, podremos crear un mejor mañana para todos.
             </p>
         </div>
-
+        </section>
     </main>
 
 

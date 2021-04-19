@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -16,9 +16,10 @@
 <body class="fondoBody">
     
     <main>
-    <nav class="navbar navcolor navbar-dark fixed-top">
+    <nav class="navbar navcolor navbar-dark fixed-top navbar-expand-lg">
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="menuHamburguesa" 
+aria-expanded="false" aria-label="Toggle navigation">
     <span class="material-icons blanco">menu</span>
 </button>
 <a class="navbar-brand colorFuenteBlanca" href="../index.php">ABSOLUT</a>
@@ -172,6 +173,6 @@
         </div>
     </footer>
 
-    <script src="js/jquery-3.5.1.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body></html>
