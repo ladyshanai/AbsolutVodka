@@ -1,0 +1,99 @@
+h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+
+h2,h3,label {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+
+nav{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+
+.fuenteHamburguesa{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+}
+
+p,h5,h6{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+}
+
+
+#resaltado{
+    font-weight: bold;
+}
+
+.navcolor {
+    background-color: #304FFE;
+}
+
+.blanco {
+    color: white;
+}
+
+.centro {
+    vertical-align: middle;
+}
+
+.floatizq {
+    float: left;
+}
+
+.margenSuperior {
+    margin-top: 80px;
+}
+
+.margenInferior {
+    
+    margin-bottom: 200px;
+}
+
+.fondoBody {
+    background-color: #E8EAF6;
+}
+
+.galeria {
+    padding-left: 50px;
+}
+
+.botonColor {
+    background-color: #76FF03 !important;
+}
+
+.colorFooter{
+    background-color: #304FFE;
+}
+
+.formulario{
+    min-height:calc(100vh - 100px - 300px);
+}
+
+.botonColor {
+    background-color: #64DD17 !important;
+}
+
+.pieDePagina {    
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.fixImages{
+    margin: auto;
+    display: block;
+}
+
+@media screen and (max-width: 770px) {
+
+    .fixImages{
+        width: 250px;
+        height: 250px;
+    }
+
+}
