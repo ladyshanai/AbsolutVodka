@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,47 +16,49 @@
 <body class="fondoBody">
 
     <header>
-        <nav class="navbar navcolor navbar-dark fixed-top">
+        <h1 class="d-none">Absolut Vodka</h1>
+    </header>
+    <nav class="navbar navcolor navbar-dark fixed-top">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="boton hamburguesa" 
+            aria-expanded="false" aria-label="boton de navegacion">
                 <span class="material-icons blanco">menu</span>
             </button>
-            <a class="navbar-brand colorFuenteBlanca" href="index.html">ABSOLUT</a>
+            <a class="navbar-brand colorFuenteBlanca" href="index.php">ABSOLUT</a>
 
-            <a class="material-icons blanco" href="html/productos.html">shopping_cart</a>
+            <a class="material-icons blanco" href="php/productos.php">shopping_cart</a>
 
 
             <div class="collapse navbar-collapse fuenteHamburguesa" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link colorFuenteBlanca " href="index.html">
+                        <a class="nav-link colorFuenteBlanca " href="index.php">
                             <span class="material-icons centro">home</span>
                             Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link colorFuenteBlanca" href="html/productos.html">
+                        <a class="nav-link colorFuenteBlanca" href="php/productos.php">
                             <span class="material-icons centro">shopping_cart</span>
                             Productos</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link colorFuenteBlanca" href="html/recetas.html">
+                        <a class="nav-link colorFuenteBlanca" href="php/recetas.php">
                             <span class="material-icons centro">local_bar</span>
                             Recetas</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link colorFuenteBlanca" href="html/historia.html">
+                        <a class="nav-link colorFuenteBlanca" href="php/historia.php">
                             <span class="material-icons centro">import_contacts</span>
                             Historias</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link colorFuenteBlanca" href="html/contacto.html">
+                        <a class="nav-link colorFuenteBlanca" href="php/contacto.php">
                             <span class="material-icons centro">email</span>
                             Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </header>
     <main>
 
         <img src="imagenes/absolut.jpg" class="img-fluid mt-5" width="1920" height="768" alt="Botella Vodka marca Absolut de vidrio reciclable">
@@ -84,6 +86,43 @@
         </div>
 
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
